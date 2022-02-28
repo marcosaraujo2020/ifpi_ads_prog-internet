@@ -1,2 +1,2 @@
-# ifpi_ads_prog-internet1_2021
- Programação para Internet
+# Programação para Internet
+ Conhecer e desenvolver as aprendizagens nas aplicações web, dos princípios básicos ao entendimento da dinâmica atual na construção de sites, apps_web e conhecendo o que mercado oferece de ferramentas para o profissional Dev.
