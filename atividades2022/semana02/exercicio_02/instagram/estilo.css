@@ -23,6 +23,7 @@ body{
     justify-content: start;
     width: 60%;
     height: 100vh;
+    margin-top: 4px;
 }
 
 
@@ -57,6 +58,26 @@ body{
     border: 1px solid rgb(218, 216, 216);
 }
 
+.group-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 150%;
+    padding: 1.5rem 0;
+    border: 1px solid rgb(218, 216, 216);
+}
+
+.group-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 150%;
+    padding: 0.5rem 0;
+}
+
 .group:nth-child(1) {
     min-height: 19rem;
 }
@@ -86,11 +107,12 @@ body{
     border-radius: 6px;
     border-style: none;
     cursor: pointer;
-
+    margin-top: 15px;
 }
 
 .iconesRodape{
     text-align: center;
+    margin-top: 15px;
 }
 
 #loginUser, #senhaUser{
@@ -98,4 +120,13 @@ body{
     width: 200px;
     font-size: 10px;
     border-radius: 4px;
+}
+
+#nomeFacebook{
+    color: #385185; 
+    font-weight: bold;
+}
+
+#face{
+    margin-top: 20px;
 }
