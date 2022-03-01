@@ -69,6 +69,13 @@ body{
     border: 1px solid rgb(218, 216, 216);
 }
 
+#group-2-msg{
+    color: rgba(var(--d69,0,149,246),1);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
 .group-3 {
     display: flex;
     justify-content: space-between;
@@ -76,24 +83,6 @@ body{
     flex-direction: column;
     width: 150%;
     padding: 0.5rem 0;
-}
-
-.group:nth-child(1) {
-    min-height: 19rem;
-}
-
-
-.img-perfil {
-    margin: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.img-perfil img {
-    height: 7rem;
 }
 
 .btnLogin{
@@ -110,10 +99,10 @@ body{
     margin-top: 15px;
 }
 
-.iconesRodape{
-    text-align: center;
-    margin-top: 15px;
+.btnLogin:hover{
+    background-color: rgb(51, 130, 175);
 }
+
 
 #loginUser, #senhaUser{
     height: 30px;
@@ -130,3 +119,22 @@ body{
 #face{
     margin-top: 20px;
 }
+
+#msgSenha, #msg1{
+    margin-top: 25px;
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 12px;
+}
+
+#faceIcon, #imgFace{
+    height: 16px; 
+    width: 16px;
+    position: relative;
+    top: 1.5px;
+}
+
+.iconesRodape{
+    text-align: center;
+    margin-top: 15px;
+}
+

@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Instagram</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <div class="instagram-wrapper"> <!-- Conteiner maior da página-->
+        
         <div class="instragram-celular">
             <img src="img/instagram-celular.png" alt="celular">
         </div>
@@ -17,7 +21,9 @@
 
             <div class="group">
                 
-                <div><img src="img/instagram-logo.png" alt="instagram logo"></div>
+                <div>
+                    <img src="img/instagram-logo.png" alt="instagram logo">
+                </div>
 
                 <div>
                     <form id="loginForm" class="FormLogin" method="post">
@@ -36,20 +42,20 @@
                 </div>
 
                 <div id="face">
-                    <span><img src="img/facebook.png" alt="" style="height: 20px; width: 20px;"></span>
-                    <span id="nomeFacebook">Entrar com o Facebook</span>
+                    <span id="faceIcon"><img id="imgFace" src="img/facebook.png" alt="" ></span>
+                    <span> <a id="nomeFacebook" href="">Entrar com o Facebook</a></span>
                 </div>
                 <br>
                 
-                <div>
-                    <a href="#">Esqueceu a senha?</a>
+                <div id="msgSenha">
+                    <a id="msg1" href="#">Esqueceu a senha?</a>
                 </div>
             </div>
 
             <br>
 
             <div class="group-2">
-                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+                <p>Não tem uma conta? <a id="group-2-msg" href="#">Cadastre-se</a></p>
             </div>
             <br>
             <div class="group-3">
@@ -68,17 +74,3 @@
 
 </body>
 </html>
-
-
-<!--  <div class="group">
-            <p class="texto">Não tem uma conta? <a href="#" class="instagram-trocar">Cadastre-se</a></p>
-        </div>
-
-        <div class="get-app">
-            <p class="texto">Obtenha o aplicativo.</p>
-
-            <div class="download">
-                <a href="#" class="app-download"></a>
-                <a href="#" class="app-download"></a>
-            </div> 
-        </div> -->
