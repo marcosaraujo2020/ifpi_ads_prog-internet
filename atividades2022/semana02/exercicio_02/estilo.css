@@ -1,0 +1,25 @@
+body{
+    background-color: #F2FFFC;
+    font-size: 120%;
+}
+
+h1{
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1, h2{
+    font-family: "Arial", sans-serif;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    color: blue;
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+}
