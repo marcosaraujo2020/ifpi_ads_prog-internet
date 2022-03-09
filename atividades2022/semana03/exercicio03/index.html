@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas práticas-html e css</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+
+    <!--Não usar atributo "style"-->
+
+    <h1>&#128512; Boas práticas de html e css</h1>
+    <h2 style="color: #0E63CC;">Aplicação web</h2>
+   
+    <!-- O uso de identação: elementos dentro de outros sempre identar -->
+    
+    <div class="container">
+
+        <div class="container-1">
+            <div class="item-1">
+                <img class="img-usuario" src="add-user.png" alt="foto-usuario">
+            </div>
+        </div>    
+    
+        <!--Escrever as tags e os atributos em minúsculo-->
+        <div class="container-2">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="input-text"/>
+        </div>
+        
+        <!-- Aspas duplas: utilize sempre para atributos. 
+        É “regra” da SGML (Standard Generalized Markup Language). -->
+        <div class="container-3">
+            <button class="botao" type="submit" onclick="alert('Muito bem!!!!')">Clique</button>
+        </div>
+   
+    </div>
+
+</body>
+</html>

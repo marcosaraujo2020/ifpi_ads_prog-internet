@@ -1,0 +1,102 @@
+body{
+    background-color: #E9EEF0;
+    text-align: center;
+    color: #378b15;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Identação dos atributos */
+
+/* Evite redundancia */
+
+/* Uso de "classe" em vez de "id" */
+
+/* Uso das funções do Flexbox */
+
+.container{
+    background-color: #E6EB6C; 
+    height: 400px; 
+    width: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px 20px;
+/*padding: 20px;*/
+}
+
+
+.container-1{
+    background-color: #FFB326;
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+}
+
+
+.container-2{
+    background-color: #8A0E8C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E9EEF0;
+    font-weight: bold;
+    width: 500px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.container-3{
+    background-color: #c17dc2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    color: red;
+}
+
+
+.botao{
+   background-color: #FFB326;
+   height: 50px;
+   width: 100px;
+   border-radius: 5px;
+   color: #6b2626;
+   border: none;
+   font-weight: bold;
+   font-size: 20px;
+   cursor: pointer;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+    .botao:hover{
+        background-color: #f18901;
+        color: #FFFFFF;
+    }
+
+
+.input-text{
+    height: 30px;
+    width: 50vh;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+
+.img-usuario{
+    width: 100px;
+    height: 100px;
+}
+
+
+.img-usuario:hover{
+    cursor: pointer;
+}
+
